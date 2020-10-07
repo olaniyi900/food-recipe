@@ -3,6 +3,13 @@
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 
+.heading {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .search-form { 
   min-height: 10vh;
   display: flex;
@@ -28,6 +35,7 @@
 
 .recipes {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
